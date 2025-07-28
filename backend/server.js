@@ -10,7 +10,7 @@ import userRoutes from "./routes/userRoutes.js";
 import orderRoutes from "./routes/orderRoutes.js";
 import uploadRoutes from "./routes/uploadRoutes.js";
 import colors from "colors";
-const port = process.env.PORT || 8000;
+const port = process.env.PORT || 8080;
 
 connectDB(); // Note: connects to MongoDB from {import connectDB from "./config/db.js"}
 
