@@ -9,7 +9,9 @@ const Footer = () => {
         <Row>
           <Col className="text-center py-3">
             <p>ProShopper &copy; {currentYear}</p>
-            <p style={{ color: "", fontSize: "small" }}>Innosol Technologies</p>
+            <p style={{ color: "", fontSize: "small" }}>
+              Customizable to your needs
+            </p>
           </Col>
         </Row>
       </Container>
